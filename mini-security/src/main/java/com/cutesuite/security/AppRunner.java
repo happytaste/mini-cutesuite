@@ -25,9 +25,9 @@ public class AppRunner implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         log.info("transaction test ------------------------------");
-        transactionTest();
+//        transactionTest();
         log.info("jpa test ------------------------------");
-        jpaTest();
+//        jpaTest();
     }
 
     private void jpaTest() {
